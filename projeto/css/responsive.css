@@ -1,0 +1,15 @@
+@media screen and (max-width: 700px) {
+    header .container {
+        flex-direction: column;
+    }
+
+    .poster-principal .description{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .description {
+        width: 70%;
+    }
+}
