@@ -55,21 +55,19 @@ header .container nav a:hover {
     height: 400px;
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .poster-principal .container {
-    margin-top: 70px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .poster-principal .rip-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .poster-principal .rip-container .subtitle {
@@ -82,8 +80,8 @@ header .container nav a:hover {
 
 .poster-principal .description {
     margin-top: 10px;
-    margin-bottom: 90px;
-    max-width: 50%;
+    margin-bottom: 10px;
+    max-width: 70%;
 }
 
 .botao {
